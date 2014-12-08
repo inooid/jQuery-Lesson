@@ -1,0 +1,66 @@
+.clearFix {
+  clear: both;
+}
+
+body {
+  font-family: Ubuntu, Arial, sans-serif;
+  padding: 20px 30px;
+}
+
+h1 {
+  color: #ff992d;
+}
+
+h1 span {
+  font-weight: 300;
+  color: #999;
+}
+
+nav a {
+  margin-right: 20px;
+  padding: 0 0 10px 0;
+  text-decoration: none;
+  color: #555;
+}
+
+nav a.active {
+  color: #ff992d;
+  border-bottom: 2px solid #ff992d;
+}
+
+nav a:hover {
+  color: #999;
+}
+
+nav a:active {
+  color: #333;
+}
+
+article {
+  margin: 50px 0;
+}
+
+article section {
+  width: 300px;
+  float: left;
+  margin-right: 30px;
+  transition: width 0.5s;
+}
+
+article section.big {
+  width: 450px;
+}
+
+article section.big img {
+  width: 350px;
+}
+
+article section img {
+  width: 250px;
+  cursor: pointer;
+  transition: width 0.5s;
+}
+
+footer {
+  color: #ccc;
+}
